@@ -40,10 +40,10 @@ import org.springframework.security.web.SecurityFilterChain;
 					  .roles("USER")
 					  .build();
 
-			   return new InMemoryUserDetailsManager(userDetails,userDetail);
+			   return new InMemoryUserDetailsManager(userDetails,userDetail); // it will use bean to authenticate incoming request
 		   }
 		   @Bean
-           public PasswordEncoder passwordEncoder(){
+           public PasswordEncoder passwordEncoder(){ // simple find the ecoder
 			return new BCryptPasswordEncoder();
 	  }
 	}
