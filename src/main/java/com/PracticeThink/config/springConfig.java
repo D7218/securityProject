@@ -18,5 +18,8 @@ public class springConfig {
                 )
                 .httpBasic();
         return http.build();
+ dev
     } // cookies means are small piece of data that a website strore on your computer or mobile device
+
+    } main
 }
