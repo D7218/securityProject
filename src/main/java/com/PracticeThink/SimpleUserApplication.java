@@ -8,7 +8,7 @@ public class SimpleUserApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleUserApplication.class, args);
-	System.out.println("run the spring boot project");
+	//System.out.println("run the spring boot project");
 	}
 
 }
